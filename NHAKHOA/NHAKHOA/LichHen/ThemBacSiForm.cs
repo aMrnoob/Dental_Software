@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace NHAKHOA.LichHen
+{
+    public partial class ThemBacSiForm : Form
+    {
+        public ThemBacSiForm()
+        {
+            InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void button_thoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+}
